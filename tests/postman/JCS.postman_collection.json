@@ -1,0 +1,244 @@
+{
+    "info": {
+        "_postman_id": "27d8fda7-df8b-401e-bb24-e6f4d18039d1",
+        "name": "JCS",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [{
+        "name": "Local",
+        "item": [{
+            "name": "STEP1",
+            "item": [{
+                "name": "order",
+                "item": [{
+                    "name": "[local][scenario] order file upload",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "email",
+                                    "value": "user@jacos.co.jp",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "Qe75ymSr",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "up_file",
+                                    "type": "file",
+                                    "src": "tests/postman/data/01.order/ouk-993477-99970-order-20210617111824_1384309397000.csv"
+                                },
+                                {
+                                    "key": "scenario_id",
+                                    "value": "4",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://localhost/jcs/api/scenario_exec",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "path": [
+                                "jcs",
+                                "api",
+                                "scenario_exec"
+                            ]
+                        }
+                    },
+                    "response": []
+                }]
+            },{
+                "name": "receive",
+                "item": [{
+                    "name": "[local][scenario] receive file upload",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "email",
+                                    "value": "user@jacos.co.jp",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "Qe75ymSr",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "up_file",
+                                    "type": "file",
+                                    "src": "tests/postman/data/03.receive/ouk-993477-99970-receive-20210621113707_matome.csv"
+                                },
+                                {
+                                    "key": "scenario_id",
+                                    "value": "12",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://localhost/jcs/api/scenario_exec",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "path": [
+                                "jcs",
+                                "api",
+                                "scenario_exec"
+                            ]
+                        }
+                    },
+                    "response": []
+                }]
+            },{
+                "name": "receive2",
+                "item": [{
+                    "name": "[local][scenario] receive2 file upload",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "email",
+                                    "value": "user@jacos.co.jp",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "Qe75ymSr",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "up_file",
+                                    "type": "file",
+                                    "src": "tests/postman/data/03.receive/ouk-993477-99970-receive-20210622152957_1384324341000.csv"
+                                },
+                                {
+                                    "key": "scenario_id",
+                                    "value": "12",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://localhost/jcs/api/scenario_exec",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "path": [
+                                "jcs",
+                                "api",
+                                "scenario_exec"
+                            ]
+                        }
+                    },
+                    "response": []
+                }]
+            },{
+                "name": "return",
+                "item": [{
+                    "name": "[local][scenario] return file upload",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "email",
+                                    "value": "user@jacos.co.jp",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "Qe75ymSr",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "up_file",
+                                    "type": "file",
+                                    "src": "tests/postman/data/04.return/ouk-993477-99970-return-20210623090726_1384301777000.csv"
+                                },
+                                {
+                                    "key": "scenario_id",
+                                    "value": "16",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://localhost/jcs/api/scenario_exec",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "path": [
+                                "jcs",
+                                "api",
+                                "scenario_exec"
+                            ]
+                        }
+                    },
+                    "response": []
+                }]
+            },{
+                "name": "payment",
+                "item": [{
+                    "name": "[local][scenario] payment file upload",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "formdata",
+                            "formdata": [{
+                                    "key": "email",
+                                    "value": "user@jacos.co.jp",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "password",
+                                    "value": "Qe75ymSr",
+                                    "type": "text"
+                                },
+                                {
+                                    "key": "up_file",
+                                    "type": "file",
+                                    "src": "tests/postman/data/06.payment/ouk-993477-99970-payment-20210625104133_1384307013000.csv"
+                                },
+                                {
+                                    "key": "scenario_id",
+                                    "value": "13",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        "url": {
+                            "raw": "http://localhost/jcs/api/scenario_exec",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "path": [
+                                "jcs",
+                                "api",
+                                "scenario_exec"
+                            ]
+                        }
+                    },
+                    "response": []
+                }]
+            }]
+        }]
+    }]
+}

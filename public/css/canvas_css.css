@@ -1,0 +1,11 @@
+#c {
+    border: 1px solid #000000;
+}
+
+.textboxdesign {
+    border: 1px solid red !important;
+}
+
+.stats-small--1 canvas {
+    opacity: 1;
+}

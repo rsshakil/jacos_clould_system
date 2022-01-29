@@ -1,0 +1,333 @@
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+}
+.main-content>.main-navbar,
+.bg_custom_color {
+    background: #538ED3;
+}
+
+.byr_list_show {
+    background: #AAC2DF !important;
+    color: #fff !important;
+    margin-top: 13px;
+}
+#main_content_section{
+    height: auto!important;
+    min-height:100%;
+    position: relative;
+}
+.stats-small{
+    margin-bottom:70px;
+}
+.logout_btn {
+    background: #fff !important;
+    color: #000 !important;
+    margin-top: 13px;
+}
+
+.top_custom_ul {
+    float: right;
+}
+
+.top_custom_ul li .top_menu_custom_a {
+    color: #fff !important;
+    margin-top: 10px !important;
+}
+
+.jcs_left_side_bar_menu li {
+    background: #538ED3 !important;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.jcs_left_side_bar_menu li a {
+    color: #fff !important;
+}
+
+.jcs_left_side_bar_menu li .active {
+    color: #538ED3 !important;
+}
+
+.jcs_left_side_bar_menu li div {
+    background: #fff !important;
+}
+
+.jcs_left_side_bar_menu li a:hover {
+    color: #538ED3 !important;
+}
+
+.pl-2 li a {
+    color: #fff !important;
+}
+
+.pl-2 li .active {
+    color: #538ED3 !important;
+}
+
+
+/* .page_c_title_bar{
+     border-bottom: 2px solid #538ED3;
+     color: #538ED3;
+   } */
+
+.page_custom_title {
+    border-bottom: 4px solid #538ED3;
+    color: #538ED3;
+}
+
+.top_byr_slr_list {
+    position: absolute;
+    top: 60px;
+    background: #fff;
+    width: 300px;
+}
+
+.custom_slr_byr_top_table thead tr th {
+    background: #AAC2DF;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    border: 1px solid #538ED3 !important;
+}
+
+.custom_slr_byr_top_table tbody tr td {
+    background: #EFEFEF;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #538ED3 !important;
+}
+
+.blog_titles {
+    border-bottom: 2px solid #538ED3 !important;
+    color: #538ED3;
+}
+
+.blogs_content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.custom_blog_square {
+    font-size: 20px;
+}
+
+.buyer_button_list li {
+    list-style: none;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.buyer_button_list li .btn {
+    font-size: 20px;
+}
+
+.multiselect__option--highlight {
+    background: #538ED3 !important;
+}
+
+.selected_byr_by_sly {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 13px;
+}
+
+.custom_navbr_button {
+    text-align: center !important;
+    padding: 0!important;
+    padding-top: 0!important;
+}
+
+.custom_navbr_button:hover .btn {
+    color: #fff !important;
+}
+
+.custm_brd_crumbs {
+    list-style: none;
+    padding-left: 0!important;
+    padding-top: 0 !important;
+}
+
+.custm_brd_crumbs li a:hover {
+    text-decoration: none;
+}
+
+.custm_brd_crumbs li {
+    float: left;
+}
+
+.main-sidebar .nav-wrapper {
+    padding: 15px;
+}
+
+.custom_sidebar {
+    box-shadow: 0 2px 0 rgba(90, 97, 105, .11), 0 4px 8px rgba(90, 97, 105, .12), 0 10px 10px rgba(90, 97, 105, .06), 0 7px 70px rgba(90, 97, 105, .1);
+}
+
+.card {
+    border-radius: 0!important;
+}
+
+.order_item_details_table thead tr th {
+    background: #538ED3;
+    color: #fff;
+    text-align: center;
+}
+
+.cl_custom_color {
+    text-align: center;
+    background: #D8E3F0;
+    /* border: 1px solid #999!important; */
+    vertical-align: middle !important;
+}
+
+.cl_custom_color_extra,
+.cl_custom_color_active {
+    text-align: center;
+    background: #538ED3;
+    color: #fff;
+    /* border: 1px solid #999!important; */
+    vertical-align: middle !important;
+}
+
+.modal-header {
+    border-bottom: 4px solid #538ED3;
+}
+
+.custom-file-upload {
+    cursor: pointer;
+    background: #538ED3;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.orderDetailTable {
+    background: #fff;
+}
+
+.orderDetailTable tr td {
+    border: 1px solid #999999;
+}
+
+.orderTopDetailTable tr td {
+    border: 1px solid #999999;
+}
+.loggedUserName{
+    cursor: default;
+}
+.topHeaderInputFieldBtn {
+    width: 66%;
+    float: left;
+    margin-right: 5px;
+}
+.order_item_details_table tbody tr:hover {background-color:#f5f5f5;}
+.srchBtn {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+.uploadBtn {
+    float: left;
+    width: 250px;
+    margin-right: 0;
+    border: none;
+}
+
+.tableRowsInfo {
+    float: left;
+    margin-right: 15px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.pagi,
+.selectPagi {
+    float: left;
+}
+
+.selectPage {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    height: 25px !important;
+}
+
+.pagi .pagination-sm .page-link {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.customPlusIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 36px;
+    cursor: pointer;
+}
+.error_found{
+    border: 1px solid red !important;
+}
+.custominvoicejsnslect {
+    margin-bottom: 15px;
+    width: 91.5%;
+}
+.popupListTable tr th {
+    background: #538ED3;
+    color: #fff;
+    text-align: center;
+}
+.customselectFields {
+    position: relative;
+}
+
+.customMinusIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 36px;
+    cursor: pointer;
+    background: red;
+    color: #fff;
+}
+
+.customPrependColor .input-group-prepend .input-group-text {
+    background: #538ED3 !important;
+    color: #fff !important;
+}
+
+.searchCategoryForm {
+    margin-bottom: 20px;
+}
+
+.pointer_class {
+    cursor: pointer
+}
+/*order receive table*/
+.cmnWidthTable tr td:nth-child(1){width: 5%;}
+.cmnWidthTable tr td:nth-child(2){width: 15%;}
+.cmnWidthTable tr td:nth-child(3){width: 5%;}
+.cmnWidthTable tr td:nth-child(4){width: 10%;}
+.cmnWidthTable tr td:nth-child(5){width: 5%;}
+.cmnWidthTable tr td:nth-child(6){width: 10%;}
+
+/*paymenttable*/
+.payemntWidthTable tr td:nth-child(1){width: 5%;}
+.payemntWidthTable tr td:nth-child(2){width: 20%;}
+.payemntWidthTable tr td:nth-child(3){width: 5%;}
+.payemntWidthTable tr td:nth-child(4){width: 20%;}
+.payemntWidthTable tr td:nth-child(5){width: 5%;}
+.payemntWidthTable tr td:nth-child(6){width: 10%;}
+
+::-webkit-calendar-picker-indicator{
+    margin-left: 0px;
+}

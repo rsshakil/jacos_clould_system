@@ -1,0 +1,21 @@
+super_user_name=super_admin@jacos.co.jp
+biware_level3_user=biware_level3@jacos.co.jp
+slr_user_name=slr01@test.jp
+byr_user_name=byr01@test.jp
+sakaki_user_name=sakaki@jacos.co.jp
+sakaki_password=jacos6571
+password=Qe75ymSr
+login_url=http://localhost/jcs/login
+# login_url=https://jcs.jacos-cloud.com/
+# login_url=https://jcs.dev.jacos.jp/
+user_identity=#email
+password_identity=#password
+login_btn_identity=#login
+logout_btn_identity=.logout_btn
+waiting_time=1000
+file_downloaded_path=C:/Users/ASUS/Downloads/
+
+shipment_file_path=C:/Users/ASUS/OneDrive/Desktop/JCS/Order/Real/Shipment/
+
+# 0.1 - 1
+writing_speed=1
